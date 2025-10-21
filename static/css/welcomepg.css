@@ -1,6 +1,7 @@
 body {
     background: radial-gradient(50% 50% at 50% 50%, rgba(123, 0, 255, 0.2) 12.02%, rgba(123, 0, 255, 0.2) 49.04%, rgba(0, 0, 0, 0.2) 82.69%), #000000;
     min-height: 100vh;
+    overflow: hidden;
 }
 
 .header {

@@ -8,15 +8,15 @@
 </head>
 <body>
     <div class="header">
-        <img src = "../static/css/assets/icons.png">
+        <img src = "../static/assets/icon.png">
         <h1>IT Student Portal</h1>
         <p>Access your collaborative workspace</p>
     </div>
 
     <div class="container">
         <div>
-            <a href="#" class = "current-page">Login</a>
-            <a href="#">Register</a>
+            <a href = "{{url_for('login')}}" class = "current-page">Login</a>
+            <a href = "{{url_for('register')}}">Register</a>
         </div>
 
         <form id="loginForm">
@@ -39,7 +39,7 @@
             </div>
         </form>
             
-            <a><button id="btn-access">Access Portal</button></a>
+            <a href = "{{url_for('welcomepg')}}"><button id="btn-access">Access Portal</button></a>
      </div>
 </body>
 </html>

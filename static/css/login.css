@@ -71,6 +71,7 @@ a.tab,
 .container > div:first-child a:hover,
 .container > div:first-child a.active {
   color: #fff;
+  background: linear-gradient(90deg, #9d4edd, #c77dff);
   border-bottom: 3px solid #fff;
 }
 
