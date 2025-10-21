@@ -6,9 +6,14 @@ body {
   justify-content: center;
   align-items: center;
   font-family: 'Poppins', sans-serif;
-  background: radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.1), transparent 70%),
-              linear-gradient(135deg, #1e003e, #5a00ff, #8a2eff);
+  background: radial-gradient(57.74% 82.54% at 73.96% 50%, #5304AD 25%, rgba(70, 0, 210, 0) 100%), 
+  linear-gradient(177.96deg, #340E80 2.01%, #240B43 98.63%);
   color: #fff;
+}
+
+img {
+width: 150px;
+height: 107px;
 }
 
 .header {
@@ -29,36 +34,44 @@ body {
 }
 
 .container {
-  text-align: center;
   width: 100%;
   max-width: 380px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(20, 0, 40, 0.6);
   border-radius: 15px;
   padding: 30px 25px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(10px);
+   
 }
 
 .container > div:first-child {
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
+}
+
+.container > div:first-child a {
+  background: rgba(10, 0, 30, 0.9);
+  padding: 120px;
+}
+
+.current-page {
+  border-bottom: 3px solid #fff;
 }
 
 a.tab, 
-.container > div:first-child a {
+.container > div:first-child  a{
+  padding: 10px;
+  flex-grow: 1;
+  text-align: center;
   color: #ccc;
   text-decoration: none;
-  padding-bottom: 8px;
   font-weight: 600;
-  border-bottom: 2px solid transparent;
-  transition: all 0.3s ease;
 }
 
 .container > div:first-child a:hover,
 .container > div:first-child a.active {
   color: #fff;
-  border-bottom: 2px solid #7a37ff;
+  border-bottom: 3px solid #fff;
 }
 
 form {
@@ -73,6 +86,7 @@ label {
 }
 
 input {
+  text-align: left;
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
@@ -94,7 +108,7 @@ input::placeholder {
   padding: 10px;
   border: none;
   border-radius: 8px;
-  background: linear-gradient(90deg, #432284, #7026a8);
+  background: linear-gradient(269.04deg, #7B00FF 1.26%, #3100C5 99.73%);
   color: #fff;
   font-size: 15px;
   font-weight: 600;
