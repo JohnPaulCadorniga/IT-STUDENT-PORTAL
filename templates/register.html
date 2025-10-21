@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IT Student Portal - Register</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="../static\css/register.css"> 
 
 </head>
 <body>
@@ -13,11 +13,11 @@
             <h2>Student Registration</h2>
             <p>Create your IT Student Portal account</p>
             
-            <form action="/register" method="POST">
+            <form>
 
-                 <div>
-                    <a href="#">Login</a>
-                    <a href="#">Register</a>
+                 <div class = "tab-header">
+                    <a href="login.html">Login</a>
+                    <a href="register.html" class = "current-page">Register</a>
                  </div>
                  
                 <div class="form-group">
@@ -60,11 +60,8 @@
                     <input type="checkbox" id="terms" name="terms" required>
                     <label for="terms">I agree to the Terms and Conditions</label>
                 </div>
-
-
-                <button type="submit" class="btn">Register Account</button>
             </form>
-
+                <button class="btn">Register Account</button>
         </div>
     </div>
 </body>
